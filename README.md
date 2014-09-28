@@ -5,13 +5,19 @@
 - [Ember.js Links](#emberjs-links)
 	- [Basics](#basics)
 	- [Ember Object](#ember-object)
-	- [Dependency Injection & Service Lookup](#dependency-injection--service-lookup)
+		- [Observers](#observers)
+		- [Computed Properties](#computed-properties)
+		- [Arrays](#arrays)
+		- [Initializers & Environment Data](#initializers--environment-data)
+		- [Dependency Injection & Service Lookup](#dependency-injection--service-lookup)
 	- [Managing Asynchrony](#managing-asynchrony)
 	- [Templates](#templates)
 	- [Routing](#routing)
 	- [Controllers](#controllers)
 	- [Models](#models)
 	- [Ember Data](#ember-data)
+		- [Serialization](#serialization)
+		- [Error Handling](#error-handling)
 	- [Alternatives to Ember Data](#alternatives-to-ember-data)
 	- [Components](#components)
 	- [Modals](#modals)
@@ -26,8 +32,13 @@
 	- [Debugging](#debugging)
 	- [Build Tools](#build-tools)
 	- [Ember CLI](#ember-cli)
-	- [Ember CLI Addons](#ember-cli-addons)
+		- [Ember CLI Addons](#ember-cli-addons)
 	- [Backend Integration](#backend-integration)
+		- [Rails](#rails)
+		- [Firebase](#firebase)
+		- [Websockets](#websockets)
+		- [Go](#go)
+		- [Middleman](#middleman)
 	- [Deployment](#deployment)
 	- [SEO](#seo--analytics)
 	- [Other Libraries](#other-libraries)
@@ -53,31 +64,41 @@
 > Useful resources for the Ember object model
 
 * [Ember.js Official Documentation - The Object Model](http://emberjs.com/guides/object-model/classes-and-instances/)
-* [Computed Properties in Ember.Js](http://reefpoints.dockyard.com/2013/09/04/computed_properties_in_ember_js.html)
-* [Ember.js - Taming computed properties](http://ugisozols.com/blog/2013/10/17/emberjs-taming-computed-properties/)
 * [Practical Abstraction in Ember.js](http://spin.atomicobject.com/2013/12/02/emberjs-abstraction)
 * [Effortless Abstraction with Ember.js](http://spin.atomicobject.com/2013/04/14/effortless-abstraction-ember/)
 * [Ember.js getters and setters](http://balinterdi.com/2014/03/19/ember-dot-js-getters-and-setters.html)
-* [Sorting arrays in Ember.js by various criteria](http://balinterdi.com/2014/03/05/sorting-arrays-in-ember-dot-js-by-various-criteria.html)
+* [What the hell is Ember.K?](http://ember.zone/what-the-hell-is-ember-k/)
+* [Ember Object Self Troll](http://reefpoints.dockyard.com/2014/04/17/ember-object-self-troll.html)
+* [Ember Works Best When You Tell Instead Of Ask](http://ember.zone/ember-works-best-when-you-tell-instead-of-ask/)
+
+### Observers
 * [Dynamic Binding in Ember.js Using Observers](http://spin.atomicobject.com/2013/05/12/dynamic-ember-js-binding-observers/)
+* [Debounced and Throttled Observers in Ember.js](http://alexspeller.com/debounced-and-throttled-observers-in-ember-js/)
+
+### Computed Properties
+
+* [Computed Properties in Ember.Js](http://reefpoints.dockyard.com/2013/09/04/computed_properties_in_ember_js.html)
+* [Ember.js - Taming computed properties](http://ugisozols.com/blog/2013/10/17/emberjs-taming-computed-properties/)
 * [Make your own computed property macro in Ember.js](http://balinterdi.com/2014/05/22/make-your-own-computed-property-macro-in-emberjs.html)
 * [ember.js - Computed Property for All Keys of an Object](http://www.thesoftwaresimpleton.com/blog/2014/03/11/cp-all-keys/)
 * [Ember.js - Creating Computed Properties at Runtime](http://www.thesoftwaresimpleton.com/blog/2013/08/11/dyanamic-cp/)
 * [Observable Path Patterns in Ember](http://balinterdi.com/2014/03/26/property-path-patterns-in-ember-dot-js.html)
 * [Creating Computed Macros in ember.js](http://www.thesoftwaresimpleton.com/blog/2013/04/27/macro/)
-* [Emberjs - arrayComputed](http://www.thesoftwaresimpleton.com/blog/2014/02/04/array-computed/)
-* [Ember.js - reduceComputed and Property Brace Expansion](http://www.thesoftwaresimpleton.com/blog/2014/02/19/reduce-computed/)
-* [Debounced and Throttled Observers in Ember.js](http://alexspeller.com/debounced-and-throttled-observers-in-ember-js/)
-* [Ember Application Initializers](http://ember.zone/ember-application-initializers/)
-* [Ember.js Initializers](http://nerdyworm.com/blog/2013/04/03/ember-initializers/)
-* [Ember Object Self Troll](http://reefpoints.dockyard.com/2014/04/17/ember-object-self-troll.html)
-* [Ember Works Best When You Tell Instead Of Ask](http://ember.zone/ember-works-best-when-you-tell-instead-of-ask/)
-* [Handling environment data with Ember.js](http://ember.zone/handling-environment-data-with-ember-js/)
-* [What the hell is Ember.K?](http://ember.zone/what-the-hell-is-ember-k/)
 * [How to optimize inefficient computed properties in Ember.js](http://dev.billysbilling.com/blog/How-to-optimize-inefficient-computed-properties-in-Ember-js)
 
-## Dependency Injection & Service Lookup
-> Useful resources on dependency injection & service lookup
+### Arrays
+
+* [Sorting arrays in Ember.js by various criteria](http://balinterdi.com/2014/03/05/sorting-arrays-in-ember-dot-js-by-various-criteria.html)
+* [Emberjs - arrayComputed](http://www.thesoftwaresimpleton.com/blog/2014/02/04/array-computed/)
+* [Ember.js - reduceComputed and Property Brace Expansion](http://www.thesoftwaresimpleton.com/blog/2014/02/19/reduce-computed/)
+
+### Initializers & Environment Data
+
+* [Ember Application Initializers](http://ember.zone/ember-application-initializers/)
+* [Ember.js Initializers](http://nerdyworm.com/blog/2013/04/03/ember-initializers/)
+* [Handling environment data with Ember.js](http://ember.zone/handling-environment-data-with-ember-js/)
+
+### Dependency Injection & Service Lookup
 
 * [Ember.js Official Documentation - Dependency Injection & Service Lookup](http://emberjs.com/guides/understanding-ember/dependency-injection-and-service-lookup/)
 * [Dependency injection in Ember.js - Going deeper](http://balinterdi.com/2014/05/16/dependency-injection-in-ember-dot-js-going-deeper.html)
@@ -152,19 +173,25 @@
 > Useful resources for Ember Data
 
 * [Ember.js Official Documentation - Models](http://emberjs.com/guides/models/)
-* [Ember Data 1.0 Transition Document](https://github.com/emberjs/data/blob/master/TRANSITION.md)
 * [A Thorough Guide to Ember Data](http://www.toptal.com/emberjs/a-thorough-guide-to-ember-data)
-* [Ember data's extractArray and extractSingle](http://sammctaggart.com/ember-datas-extractarray-and-extractsingle/)
 * [Non-RESTful API calls with Ember Data](http://cball.me/non-restful-api-calls-with-ember-data/)
-* [Model Errors in EmberJS](https://marcqualie.com/2014/04/model-errors-in-emberjs)
 * [Changes Pending! Ember Data Dirty State Tracking](http://spin.atomicobject.com/2014/05/07/ember-data-dirty-state-tracking/)
 * [Ember Data: Polymorphic Associations](http://lukegalea.github.io/ember_data_polymorphic_presentation/#/)
 * [Ember Data Model Maker (tool to help you define your models)](http://andycrum.github.io/ember-data-model-maker/)
 * [A Simple Ember Data Route](http://reefpoints.dockyard.com/2014/03/03/a-simple-ember-data-route.html)
-* [Loading JSON with embedded records into Ember Data 1.0.0 beta](http://mozmonkey.com/2013/12/loading-json-with-embedded-records-into-ember-data-1-0-0-beta/)
-* [Serializing Embedded Relationships with Ember Data 1.0.0 beta](http://mozmonkey.com/2013/12/serializing-embedded-relationships-ember-data-beta/)
 * [Ember Data & CORS](http://discuss.emberjs.com/t/ember-data-and-cors/3690/4)
 * [Using Ancestry/Self-Join Relationships in Ember and Rails](https://github.com/brandonjmckay/ember-ancestry-example)
+
+### Serialization
+
+* [Ember Data 1.0 Transition Document](https://github.com/emberjs/data/blob/master/TRANSITION.md)
+* [Ember data's extractArray and extractSingle](http://sammctaggart.com/ember-datas-extractarray-and-extractsingle/)
+* [Serializing Embedded Relationships with Ember Data 1.0.0 beta](http://mozmonkey.com/2013/12/serializing-embedded-relationships-ember-data-beta/)
+* [Loading JSON with embedded records into Ember Data 1.0.0 beta](http://mozmonkey.com/2013/12/loading-json-with-embedded-records-into-ember-data-1-0-0-beta/)
+
+### Error Handling
+
+* [Model Errors in EmberJS](https://marcqualie.com/2014/04/model-errors-in-emberjs)
 * [Server Side Validations with Ember Data and DS.Errors](http://alexspeller.com/server-side-validations-with-ember-data-and-ds-errors)
 
 ## Alternatives to Ember Data
@@ -182,7 +209,6 @@
 * [A Graceful Image Loading Component](http://ember.zone/a-graceful-image-loading-component/)
 * [Getting Ember components to respond to actions](http://www.samselikoff.com/blog/2014/05/16/getting-ember-components-to-respond-to-actions/)
 * [Sorting Displayed Data Using Components](http://www.kabisa.nl/sorting-displayed-data-in-ember-js/)
-* [Ember Table, Ember Widgets & Ember Charts by Addepar](http://addepar.github.io)
 * [The Confusion Around Ember Views and Components](http://ember.zone/the-confusion-around-ember-views-and-components/)
 * [Making Accessible Components](https://gist.github.com/jdjkelly/0bddf2e834b6d6bc2174)
 * [EmberUI Alpha Release](http://blog.venn.lc/emberui-alpha-release/)
@@ -321,8 +347,7 @@
 * [Ember CLI & Phonegap](http://givan.se/p/00000001)
 * [Using Fixtures In Combination With Ember CLI](http://edgycircle.com/blog/2014-using-fixtures-in-combination-with-ember-cli/)
 
-## Ember CLI Addons
-> Useful resources specifically related to Ember CLI Addons
+### Ember CLI Addons
 
 * [Introducing Ember CLI Addons](http://reefpoints.dockyard.com/2014/06/24/introducing_ember_cli_addons.html)
 * [Creating A Datepicker Ember Addon](http://edgycircle.com/blog/2014-creating-a-datepicker-ember-addon)
@@ -335,6 +360,8 @@
 ## Backend Integration
 > Useful resources for backend integration
 
+### Rails
+
 * [Building an Ember App with Rails Part 1](http://reefpoints.dockyard.com/2014/05/07/building-an-ember-app-with-rails-part-1.html)
 * [Building an Ember App with Rails Part 2](http://reefpoints.dockyard.com/2014/05/08/building-an-ember-app-with-rails-part-2.html)
 * [Building an Ember App with Rails Part 3](http://reefpoints.dockyard.com/2014/05/09/building-an-ember-app-with-rails-part-3.html)
@@ -342,13 +369,24 @@
 * [Ember.js Tutorial With Rails 4](http://www.railsonmaui.com/blog/2013/06/11/emberjs-rails4-tutorial/)
 * [Basic Alerting System with ActionController::Live and Ember.js](http://blog.geokoumpa.com/basic-alerting-system-with-actioncontrollerlive-and-ember-js/)
 * [Introducing JSONAPI::Resources](http://www.cerebris.com/blog/2014/08/22/introducing-jsonapi-resources/)
+
+### Firebase
+
 * [EmberFire (Firebase + Ember Data)](https://github.com/firebase/emberFire)
 * [Ember.js + Firebase = < 3](http://mjackson.roon.io/ember-js-firebase-3)
 * [Build an Ember.js App With Firebase](http://balinterdi.com/2013/12/11/build-an-ember-dot-js-app-with-firebase.html)
+
+### Websockets
+
 * [Real-time Data for an Ember.js Application using WebSockets](http://pixelhandler.com/posts/real-time-data-for-an-emberjs-application-using-websockets)
+
+### Go
 * [Building an app with Ember.js and Go - Part 1](http://nerdyworm.com/blog/2013/05/21/building-an-app-with-ember-dot-js-and-go/)
 * [Building an app with Ember.js and Go - Part 2](http://nerdyworm.com/blog/2013/05/24/building-an-app-with-ember-dot-js-and-go-part-2/)
 * [Building an app with Ember.js and Go - Part 3](http://nerdyworm.com/blog/2013/05/27/building-an-app-with-ember-dot-js-and-go-part-3/)
+
+### Middleman
+
 * [Ember.js and Middleman](http://nerdyworm.com/blog/2013/05/06/ember-dot-js-and-middleman/)
 
 ## Deployment
@@ -376,6 +414,7 @@
 * [Ember.I18n - Internationalization for Ember](https://github.com/jamesarosen/ember-i18n)
 * [Redactor component written in Ember.js](https://github.com/greenfieldhq/ember-cli-redactor)
 * [Ember Validations](https://github.com/dockyard/ember-validations)
+* [Ember Table, Ember Widgets & Ember Charts by Addepar](http://addepar.github.io)
 
 ## Books
 > Ember.js books
