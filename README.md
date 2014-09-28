@@ -6,16 +6,18 @@
 	- [Basics](#basics)
 	- [Ember Object](#ember-object)
 	- [Dependency Injection & Service Lookup](#dependency-injection--service-lookup)
-	- [Managing Asynchrony](#managing-asynchrony]
+	- [Managing Asynchrony](#managing-asynchrony)
 	- [Templates](#templates)
 	- [Routing](#routing)
 	- [Controllers](#controllers)
 	- [Models](#models)
 	- [Ember Data](#ember-data)
+	- [Alternatives to Ember Data](#alternatives-to-ember-data)
 	- [Components](#components)
 	- [Modals](#modals)
 	- [Testing](#testing)
 	- [The Run Loop](#the-run-loop)
+	- [Performance](#performance)
 	- [Working with 3rd party libraries](#working-with-3rd-party-libraries)
 	- [Animation](#animation)
 	- [Authentication](#authentication)
@@ -28,6 +30,7 @@
 	- [Backend Integration](#backend-integration)
 	- [Deployment](#deployment)
 	- [SEO](#seo--analytics)
+	- [Other Libraries](#other-libraries)
 	- [Other sites for resources](#other-sites-for-resources)
 	- [Misc Ember Links](#misc-ember-links)
 
@@ -36,8 +39,11 @@
 
 * [Ember.js Official Documentation - Getting Started](http://emberjs.com/guides/getting-started/)
 * [Codeschool - Warming Up With Ember.js](https://www.codeschool.com/courses/warming-up-with-ember-js)
+* [Avoiding Common Pitfulls in Ember.js](http://www.slideshare.net/AlexSpeller/avoiding-common-pitfalls-in-emberjs)
 * [Vic Ramon's Ember Tutorial](http://ember.vicramon.com/)
 * [An Ember.js beginners tutorial](http://williamhart.info/an-emberjs-beginners-tutorial.html)
+* [Building Modern Javascript Applications With Ember.js](http://slides.com/samselikoff/building-modern-js-apps-with-emberjs#/)
+* [Mastering Ember.js](https://www.youtube.com/playlist?list=PL0nNJgE19Y-js_1XHA5QdEU1ed_ldOaks)
 * [Resources for Getting Started with Ember.js](http://spin.atomicobject.com/2013/09/15/ember-js-resources/)
 * [An In-Depth Introduction To Ember.js](http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 * [Things I wish someone had told me when I was learning Ember.js](http://landongn.com/ember/things-i-wish-someone-had-told-me-when-i-was-learning-ember-js/)
@@ -107,7 +113,9 @@
 
 * [Ember.js Official Documentation - Routing](http://emberjs.com/guides/routing/)
 * [Diagonal Routes (tool to help you define your routes)](http://www.alexspeller.com/ember-diagonal/)
+* [Understanding Loading Substates in Ember](http://cball.me/understanding-loading-substates-in-ember/)
 * [Understanding nesting in Ember.js](http://ugisozols.com/blog/2013/11/05/understanding-nesting-in-emberjs/)
+* [Using Ember.js Outlets](https://blog.safaribooksonline.com/2013/09/10/ember-js-outlets/)
 * [Adding route specific body class tags in Ember](http://reefpoints.dockyard.com/ember/2013/03/27/body-class-tags-in-ember.html)
 * [Know your routes in Ember.js](http://ugisozols.com/blog/2014/02/25/know-your-routes-in-emberjs/)
 * [Indicating Progress - Loading Routes in Ember.js](http://balinterdi.com/2014/06/18/indicating-progress-loading-routes-in-ember-dot-js.html)
@@ -125,13 +133,13 @@
 * [Routeless Ember.js Controllers](http://ember.zone/routeless-ember-js-controllers/)
 * [Ember gotcha: Controllers are singletons](http://balinterdi.com/2014/06/26/ember-gotcha-controllers-are-singletons.html)
 * [The Ember Controller - Same Same, but Different - Part 1 - the ObjectController](http://www.thesoftwaresimpleton.com/blog/2013/03/24/controller/)
+* [Ember.js query params on a Select with optionValuePath](http://blog.geokoumpa.com/ember-js-query-params-on-a-select-with-optionvaluepath/)
 
 ## Models
 > Useful resources for models, see Ember Data section for specifics of working with Ember Data
 
 * [Ember.js Official Documentation - Models](http://emberjs.com/guides/models/)
 * [Mimic Network Latency using FixtureAdapter](http://www.ember-tricks.com/#/tricks/How to mimic network latency with the fixture adapter during development)
-* [Roll Your Own Ember.js Identity Map](http://balinterdi.com/2013/12/03/roll-your-own-ember-dot-js-identity-map.html)
 
 ## Ember Data
 > Useful resources for Ember Data
@@ -139,6 +147,8 @@
 * [Ember.js Official Documentation - Models](http://emberjs.com/guides/models/)
 * [Ember Data 1.0 Transition Document](https://github.com/emberjs/data/blob/master/TRANSITION.md)
 * [A Thorough Guide to Ember Data](http://www.toptal.com/emberjs/a-thorough-guide-to-ember-data)
+* [Ember data's extractArray and extractSingle](http://sammctaggart.com/ember-datas-extractarray-and-extractsingle/)
+* [Non-RESTful API calls with Ember Data](http://cball.me/non-restful-api-calls-with-ember-data/)
 * [Model Errors in EmberJS](https://marcqualie.com/2014/04/model-errors-in-emberjs)
 * [Changes Pending! Ember Data Dirty State Tracking](http://spin.atomicobject.com/2014/05/07/ember-data-dirty-state-tracking/)
 * [Ember Data: Polymorphic Associations](http://lukegalea.github.io/ember_data_polymorphic_presentation/#/)
@@ -147,6 +157,12 @@
 * [Loading JSON with embedded records into Ember Data 1.0.0 beta](http://mozmonkey.com/2013/12/loading-json-with-embedded-records-into-ember-data-1-0-0-beta/)
 * [Serializing Embedded Relationships with Ember Data 1.0.0 beta](http://mozmonkey.com/2013/12/serializing-embedded-relationships-ember-data-beta/)
 * [Ember Data & CORS](http://discuss.emberjs.com/t/ember-data-and-cors/3690/4)
+
+## Alternatives to Ember Data
+> Useful resources for alternatives to Ember Data
+
+* [Roll Your Own Ember.js Identity Map](http://balinterdi.com/2013/12/03/roll-your-own-ember-dot-js-identity-map.html)
+* [Ambitious Data Flows with Ember.js and Orbit.js](https://speakerdeck.com/dgeb/ambitious-data-flows-with-ember-dot-js-and-orbit-dot-js)
 
 ## Components
 > Useful resources for components
@@ -158,8 +174,12 @@
 * [Sorting Displayed Data Using Components](http://www.kabisa.nl/sorting-displayed-data-in-ember-js/)
 * [Ember Table, Ember Widgets & Ember Charts by Addepar](http://addepar.github.io)
 * [The Confusion Around Ember Views and Components](http://ember.zone/the-confusion-around-ember-views-and-components/)
+* [Making Accessible Components](https://gist.github.com/jdjkelly/0bddf2e834b6d6bc2174)
+* [EmberUI Alpha Release](http://blog.venn.lc/emberui-alpha-release/)
 * [Convert a view into a component](http://balinterdi.com/2014/02/05/convert-a-view-into-a-component.html)
 * [Making an Ember.js component more reusable](http://balinterdi.com/2014/02/12/making-an-emberjs-component-more-reusable.html)
+* [Ember & Selectize Integration](http://miguelcobain.github.io/ember-selectize/)
+* [Building a juicy progress bar component in Ember](http://blog.venn.lc/building-a-juicy-progress-bar-component-in-ember/)
 * [Building an Autocomplete Widget Part 1](http://www.embercasts.com/episodes/building-an-autocomplete-widget-part-1)
 * [Readers’ Letters: Making an Ember.js component even better](http://balinterdi.com/2014/02/18/readers-letters-making-an-ember-dot-js-component-even-better.html)
 * [An Ember.js Guage Component](http://front-back.com/an-ember-js-gauge-component)
@@ -191,6 +211,7 @@
 * [Ember.js Official Documentation - Testing](http://emberjs.com/guides/testing/)
 * [The Unofficial, Official Ember Testing Guide](https://speakerdeck.com/coderberry/the-unofficial-official-ember-testing-guide)
 * [Testing Ember.js Applications](http://www.mattjmorrison.com/2014/04/02/ember-testing.html)
+* [Testing Ember.js Apps: Managing Dependencies](http://madhatted.com/2014/8/29/testing-ember-js-apps-managing-dependencies)
 * [What App.reset() does in Ember](https://emberflare.com/entries/what-app-reset-does-in-ember)
 * [Testing & Tooling in EmberJS](http://spin.atomicobject.com/2014/01/02/emberjs-testing-tooling/)
 * [End-to-end Javascript Testing: Integration Tests Using Ember.js Test Helpers](http://pixelhandler.com/posts/end-to-end-javascript-testing-integration-tests-using-emberjs-test-helpers)
@@ -203,6 +224,11 @@
 * [Ember.run.bind](http://balinterdi.com/2014/05/09/ember-dot-run-dot-bind.html)
 * [Unit Testing Ember.js, How I Learned to Stop Worrying and Love the Runloop](http://www.thesoftwaresimpleton.com/blog/2012/04/03/testing-ember-and-the-runloop/)
 
+## Performance
+> Useful resources for performance
+
+* [Performance in Ember Apps](http://madhatted.com/2014/3/28/via-emberconf-performance-in-ember-apps)
+
 ## Working With 3rd party libraries
 > Useful resources for working with 3rd party libraries, including jQuery
 
@@ -211,6 +237,8 @@
 * [Ember.js Date Pickers – It’s Easy!](http://spin.atomicobject.com/2013/10/29/ember-js-date-picker/)
 * [Ember Date Picker with Ember Data and Pikaday](http://dylanmarkow.com/blog/2014/03/27/ember-date-picker-with-ember-data-and-pikaday/)
 * [Ember.js Drag and Drop Sorting With jQuery Sortable](http://nerdyworm.com/blog/2013/04/26/ember-dot-js-drag-and-drop-sorting-with-jquery-sortable/)
+* [Build a Markdown editor with Node Webkit and Ember](http://sammctaggart.com/build-a-markdown-editor-with-node-webkit-and-ember)
+* [Build a Markdown editor with Node Webkit and Ember pt 2](http://sammctaggart.com/build-a-markdown-editor-with-node-webkit-and-ember-pt-2/)
 
 ## Animation
 > Useful resources for creating animations
@@ -225,6 +253,7 @@
 
 * [Authentication for Single Page Apps](http://madhatted.com/2014/6/17/authentication-for-single-page-apps)
 * [Ember.js Authentication - the right way (Javascript version)](http://webcloud.github.io/blog/2014/04/07/emberjs-authentication-the-right-way-javascript-version/)
+* [Mitch Lloyd on Authentication and Authorization with Ember](https://www.youtube.com/watch?v=KzasJuhsTSs)
 * [Torii (an authorization service library for your Ember.js application)](http://vestorly.github.io/torii/)
 * [Ember Simple Auth](http://ember-simple-auth.simplabs.com/)
 * [Ember Simple Auth Torii - extension that is compatible with Torii](https://github.com/simplabs/ember-simple-auth/tree/master/packages/ember-simple-auth-torii)
@@ -278,6 +307,11 @@
 
 * [Introducing Ember CLI Addons](http://reefpoints.dockyard.com/2014/06/24/introducing_ember_cli_addons.html)
 * [Creating A Datepicker Ember Addon](http://edgycircle.com/blog/2014-creating-a-datepicker-ember-addon)
+* [Ember Loading Addon](https://github.com/johnotander/ember-cli-loading)
+* [A simple ember component for adding Charts](https://github.com/aomra015/ember-cli-chart)
+* [Esnext Processing](https://github.com/rwjblue/ember-cli-esnext)
+* [Async Button](https://github.com/dockyard/ember-cli-async-button)
+* [Ember CLI Proxy Fixtures](https://github.com/dockyard/ember-cli-proxy-fixtures)
 
 ## Backend Integration
 > Useful resources for backend integration
@@ -287,6 +321,7 @@
 * [Building an Ember App with Rails Part 3](http://reefpoints.dockyard.com/2014/05/09/building-an-ember-app-with-rails-part-3.html)
 * [Building an Ember App with Rails Part 4](http://reefpoints.dockyard.com/2014/05/31/building-an-ember-app-with-rails-part-4.html)
 * [Ember.js Tutorial With Rails 4](http://www.railsonmaui.com/blog/2013/06/11/emberjs-rails4-tutorial/)
+* [Basic Alerting System with ActionController::Live and Ember.js](http://blog.geokoumpa.com/basic-alerting-system-with-actioncontrollerlive-and-ember-js/)
 * [EmberFire (Firebase + Ember Data)](https://github.com/firebase/emberFire)
 * [Ember.js + Firebase = < 3](http://mjackson.roon.io/ember-js-firebase-3)
 * [Build an Ember.js App With Firebase](http://balinterdi.com/2013/12/11/build-an-ember-dot-js-app-with-firebase.html)
@@ -310,12 +345,16 @@
 * [Google Analytics for Single-Page Web Apps with Ember](http://spin.atomicobject.com/2014/07/01/google-analytics-web-apps/)
 * [Adding Support for Search Engines to your Javascript Applications](http://eviltrout.com/2013/06/19/adding-support-for-search-engines-to-your-javascript-applications.html)
 
+## Other Libraries
+> Useful Ember.js libraries
+
+* [EmberUI - A component library for crafting ambitious interfaces.](http://emberui.com/)
+
 ## Other Sites For Resources
 > More resources
 
 * [EmberFlare](https://emberflare.com/entries)
 * [Ember Zone](http://ember.zone/)
-* [Ember Tricks](http://www.ember-tricks.com/#/tricks)
 
 ## Misc Ember Links
 > Other miscellaneous Ember.js links
