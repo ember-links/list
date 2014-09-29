@@ -233,6 +233,7 @@
 ## Modals
 > Useful resources for working with modals in Ember
 
+* [Liquid Fire: Modal Dialogs](http://ef4.github.io/liquid-fire/#/modals)
 * [Master Your Modals In Ember.js](http://ember.guru/2014/master-your-modals-in-ember-js)
 
 ## Views
@@ -286,10 +287,15 @@
 ## Animation
 > Useful resources for creating animations
 
-* [Liquid Fire: Animations & Transitions for Ember Apps](http://ef4.github.io/liquid-fire/)
 * [ember.js - Animating Deletes With the BufferedProxy](http://www.thesoftwaresimpleton.com/blog/2014/04/22/animate-bufferedproxy/)
 * [Ember Animated Outlet: Animated route transitions in Ember.js](http://dev.billysbilling.com/blog/Ember-Animated-Outlet-Animated-route-transitions-in-Ember.js)
 * [Animating Ember](http://www.robharper.ca/ember-on-mobile/animation.html)
+
+### Liquid Fire
+
+* [Liquid Fire: Animations & Transitions for Ember Apps](http://ef4.github.io/liquid-fire/)
+* [Using Liquid Fire & Flexbox](http://ef4.github.io/liquid-fire/#/scenarios/growable-flexboxes)
+
 
 ## Authentication
 > Useful resources for authentication and authorization
