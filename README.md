@@ -39,6 +39,7 @@
 		- [Websockets](#websockets)
 		- [Go](#go)
 		- [Middleman](#middleman)
+		- [PubNub](#pubnub)
 	- [Deployment](#deployment)
 	- [SEO](#seo--analytics)
 	- [Other Libraries](#other-libraries)
@@ -283,6 +284,7 @@
 * [Build a Markdown editor with Node Webkit and Ember](http://sammctaggart.com/build-a-markdown-editor-with-node-webkit-and-ember)
 * [Build a Markdown editor with Node Webkit and Ember pt 2](http://sammctaggart.com/build-a-markdown-editor-with-node-webkit-and-ember-pt-2/)
 * [Playing with ember-leaflet and circle marker](http://piotrze.blogspot.ca/2014/08/playing-with-ember-leaflet-and-circle.html)
+* [Using pdf.js in an Ember View](https://medium.com/@gordon_cassie/using-pdf-js-in-an-ember-view-ec2626a3ac66)
 
 ## Animation
 > Useful resources for creating animations
@@ -394,6 +396,10 @@
 ### Middleman
 
 * [Ember.js and Middleman](http://nerdyworm.com/blog/2013/05/06/ember-dot-js-and-middleman/)
+
+### PubNub
+
+* [http://www.pubnub.com/blog/emberjs-101-from-zero-to-ember-in-pubnub-seconds/](http://www.pubnub.com/blog/emberjs-101-from-zero-to-ember-in-pubnub-seconds/)
 
 ## Deployment
 > Useful resources for deployment
