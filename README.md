@@ -357,6 +357,8 @@
 
 ### Ember CLI Addons
 
+* [Ember CLI Addons Official Documentation](http://www.ember-cli.com/#developing-addons-and-blueprints)
+* [Searchable Archive of Ember CLI Addons](http://www.emberaddons.com/)
 * [Introducing Ember CLI Addons](http://reefpoints.dockyard.com/2014/06/24/introducing_ember_cli_addons.html)
 * [Creating A Datepicker Ember Addon](http://edgycircle.com/blog/2014-creating-a-datepicker-ember-addon)
 * [Ember Loading Addon](https://github.com/johnotander/ember-cli-loading)
