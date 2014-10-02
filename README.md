@@ -106,6 +106,7 @@
 * [Learning to Love Ember’s Dependency Injection](http://spin.atomicobject.com/2014/09/04/ember-dependency-injection/)
 * [Dependency injection in Ember.js - First steps](http://balinterdi.com/2014/05/01/dependency-injection-in-ember-dot-js.html)
 * [Beginning to understand the Ember.js Container](http://ember.zone/beginning-to-understand-the-ember-js-container/)
+* [How Ember.js Finds Stuff](http://ember.zone/how-ember-js-finds-stuff/)
 
 ## Managing Asynchrony
 > Useful resources on working with asynchrony including promises
