@@ -231,6 +231,7 @@
 * [“Subclassing” Ember Components](http://spin.atomicobject.com/2014/03/16/subclass-emberjs-components/)
 * [Editing Markdown with Ember.js](http://williamhart.info/editing-markdown-with-emberjs.html)
 * [Create a Custom Select Box using Ember.Component](http://pixelhandler.com/posts/create-a-custom-select-box-using-ember-component)
+* [Ember Cal - A Better Calendar Component for Ember.js](https://github.com/netgusto/ember-cal)
 
 ## Modals
 > Useful resources for working with modals in Ember
