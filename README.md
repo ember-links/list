@@ -135,6 +135,7 @@
 * [Emberjs - Creating a Timeago Helper](http://www.thesoftwaresimpleton.com/blog/2014/01/18/timeago-helper/)
 * [Ember.js - Calling a Handlebars Helper From Another Handlebars Helper](http://www.thesoftwaresimpleton.com/blog/2013/04/07/handlebars-helper/)
 * [Ember.js Custom Select with Change Event Callback](http://nadeemkhedr.wordpress.com/2014/08/18/ember-js-custom-select-with-change-event/)
+* [HTMLBar Chart](http://jonathan-jackson.net/htmlbar-chart/)
 
 ## Routing
 > Useful resources for the Ember object model
@@ -163,6 +164,7 @@
 * [Ember gotcha: Controllers are singletons](http://balinterdi.com/2014/06/26/ember-gotcha-controllers-are-singletons.html)
 * [The Ember Controller - Same Same, but Different - Part 1 - the ObjectController](http://www.thesoftwaresimpleton.com/blog/2013/03/24/controller/)
 * [Ember.js query params on a Select with optionValuePath](http://blog.geokoumpa.com/ember-js-query-params-on-a-select-with-optionvaluepath/)
+* [How to create a simple auto save feature in Ember](http://www.robert-deluca.com/posts/how-to-create-a-simple-auto-save-feature-in-ember)
 
 ## Models
 > Useful resources for models, see Ember Data section for specifics of working with Ember Data
@@ -232,6 +234,9 @@
 * [Editing Markdown with Ember.js](http://williamhart.info/editing-markdown-with-emberjs.html)
 * [Create a Custom Select Box using Ember.Component](http://pixelhandler.com/posts/create-a-custom-select-box-using-ember-component)
 * [Ember Cal - A Better Calendar Component for Ember.js](https://github.com/netgusto/ember-cal)
+* [Presentation on Drag & Drop in Ember](http://slides.com/bantic/emberjs-drag-and-drop)
+* [Form Validation using native HTML5 rules](https://github.com/maestrooo/ember-cli-html5-validation)
+* [A Simple Auto Expanding Textarea Component](http://ember.zone/a-simple-auto-expanding-textarea-component/)
 
 ## Modals
 > Useful resources for working with modals in Ember
@@ -268,6 +273,7 @@
 * [Ember.js Official Documentation - The Run Loop](http://emberjs.com/guides/understanding-ember/run-loop/)
 * [Ember.run.bind](http://balinterdi.com/2014/05/09/ember-dot-run-dot-bind.html)
 * [Unit Testing Ember.js, How I Learned to Stop Worrying and Love the Runloop](http://www.thesoftwaresimpleton.com/blog/2012/04/03/testing-ember-and-the-runloop/)
+* [Ember runloop handbook](https://github.com/eoinkelly/ember-runloop-handbook)
 
 ## Performance
 > Useful resources for performance
@@ -287,6 +293,7 @@
 * [Build a Markdown editor with Node Webkit and Ember pt 2](http://sammctaggart.com/build-a-markdown-editor-with-node-webkit-and-ember-pt-2/)
 * [Playing with ember-leaflet and circle marker](http://piotrze.blogspot.ca/2014/08/playing-with-ember-leaflet-and-circle.html)
 * [Using pdf.js in an Ember View](https://medium.com/@gordon_cassie/using-pdf-js-in-an-ember-view-ec2626a3ac66)
+* [Writing Ember.js Components with Ember CLI - with the select2 jQuery library](http://www.devcasts.io/p/writing-emberjs-components-with-ember-cli/)
 
 ## Animation
 > Useful resources for creating animations
@@ -315,6 +322,9 @@
 * [Ember.js and Rails Authentication Gotchas](http://blog.waymondo.com/2012-12-18-ember-dot-js-and-rails-authentication-gotchas/)
 * [Client-side Authentication Part 1](http://www.embercasts.com/episodes/client-side-authentication-part-1)
 * [Client-side Authentication Part 2](http://www.embercasts.com/episodes/client-side-authentication-part-2)
+* [Authentication With EmberJS - Part 1](http://coderberry.me/blog/2013/07/08/authentication-with-emberjs-part-1/)
+* [Authentication With EmberJS - Part 2](http://coderberry.me/blog/2013/07/08/authentication-with-emberjs-part-2/)
+* [Authentication With EmberJS - Part 3](http://coderberry.me/blog/2013/07/08/authentication-with-emberjs-part-3/)
 
 ## Data Visualization & D3
 > Useful resources for data visualization and working with D3.js
@@ -338,6 +348,7 @@
 * [Ember.js Official Documentation - Debugging](http://emberjs.com/guides/understanding-ember/debugging/)
 * [Debugging with Ember Inspector – Ember’s Chrome Plugin](http://spin.atomicobject.com/2013/09/19/ember-inspector-chrome-plugin/)
 * [Debugging an Ember.js Application](http://eviltrout.com/2014/08/16/debugging-ember-js.html)
+* [Ember-Devtools — A Collection of Useful Functions](https://github.com/aexmachina/ember-devtools)
 
 ## Build Tools
 > Useful resources for generic build tools
@@ -355,10 +366,14 @@
 * [Getting Started With Ember.js Using Ember CLI](http://thetechcofounder.com/getting-started-with-ember-js-using-ember-cli/)
 * [Building An Ember.js Production Application With Ember Cli](http://edgycircle.com/blog/2014-building-an-emberjs-production-application-with-ember-cli)
 * [Ember CLI & Phonegap](http://givan.se/p/00000001)
+* [Ember CLI & Content Security Policy](https://www.justinbull.ca/anchor/posts/ember-cli-and-content-security-policy-csp)
 * [Using Fixtures In Combination With Ember CLI](http://edgycircle.com/blog/2014-using-fixtures-in-combination-with-ember-cli/)
+* [Working With JavaScript Plugins in Ember CLI Part 1](http://blog.abuiles.com/blog/2014/10/03/working-with-javascript-plugins-in-ember-cli/)
+* [Working With JavaScript Plugins in Ember CLI Part 2](http://blog.abuiles.com/blog/2014/10/17/working-with-javascript-plugins-in-ember-cli-part-2/)
 
 ### Ember CLI Addons
 
+* [Ember CLI Dotenv](https://github.com/fivetanley/ember-cli-dotenv)
 * [Ember CLI Addons Official Documentation](http://www.ember-cli.com/#developing-addons-and-blueprints)
 * [Searchable Archive of Ember CLI Addons](http://www.emberaddons.com/)
 * [Introducing Ember CLI Addons](http://reefpoints.dockyard.com/2014/06/24/introducing_ember_cli_addons.html)
@@ -368,6 +383,7 @@
 * [Esnext Processing](https://github.com/rwjblue/ember-cli-esnext)
 * [Async Button](https://github.com/dockyard/ember-cli-async-button)
 * [Ember CLI Proxy Fixtures](https://github.com/dockyard/ember-cli-proxy-fixtures)
+* [Pagination Addon for Ember CLI](https://github.com/mharris717/ember-cli-pagination)
 
 ## Backend Integration
 > Useful resources for backend integration
@@ -391,6 +407,8 @@
 ### Websockets
 
 * [Real-time Data for an Ember.js Application using WebSockets](http://pixelhandler.com/posts/real-time-data-for-an-emberjs-application-using-websockets)
+* [EmberJS WebSockets addon for Ember-CLI](https://github.com/thoov/ember-websockets)
+
 
 ### Go
 * [Building an app with Ember.js and Go - Part 1](http://nerdyworm.com/blog/2013/05/21/building-an-app-with-ember-dot-js-and-go/)
@@ -408,6 +426,7 @@
 ## Deployment
 > Useful resources for deployment
 
+* [Deploying Ember-CLI apps](http://blog.firstiwaslike.com/deploying-ember-cli-apps/)
 * [Lightning Fast Deployments With Rails (in the Wild)](http://blog.abuiles.com/blog/2014/07/08/lightning-fast-deployments-with-rails/)
 * [Ember Hosting with Aerobatic](Ember Hosting with Aerobatic)
 * [How to gzip an Ember CLI + Rails app on Heroku](http://www.robert-deluca.com/posts/how-to-gzip-an-ember-cli-and-rails-app-on-heroku)
@@ -441,14 +460,18 @@
 ## Other Sites For Resources
 > Other Ember.js resource sites
 
-* [EmberFlare](https://emberflare.com/entries)
+* [Ember Flare](https://emberflare.com/entries)
 * [Ember Zone](http://ember.zone/)
+* [Ember Weekly](http://emberweekly.com/)
 
 ## Misc Ember Links
 > Other miscellaneous Ember.js links
 
 * [Built With Ember](http://builtwithember.io/)
+* [Ember Inspector](https://github.com/emberjs/ember-inspector)
 * [Building Chrome Extensions With EmberJS](https://www.youtube.com/watch?v=NtkpDL2yKGo)
 * [Creating Hybrid Apps with Ember](https://speakerdeck.com/coderberry/creating-hybrid-apps-with-ember)
+* [Ember.js and accessibility](http://words.steveklabnik.com/emberjs-and-accessibility)
+* [Modern Mobile Web Apps (using Ember.js)](https://docs.google.com/presentation/d/1Is4f881t0pImLAQLCz4AlcLaUL8Fk4-C_Q2Hbu2DhS4/)
 
 Please note: Some of the links may not be as relevant as when they were originally written. The Ember.js ecosystem is under active development and things a liable to change. If you feel something should be removed just let me know.
