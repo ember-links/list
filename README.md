@@ -52,7 +52,7 @@
 
 * [Ember.js Official Documentation - Getting Started](http://emberjs.com/guides/getting-started/)
 * [Codeschool - Warming Up With Ember.js](https://www.codeschool.com/courses/warming-up-with-ember-js)
-* [Avoiding Common Pitfulls in Ember.js](http://www.slideshare.net/AlexSpeller/avoiding-common-pitfalls-in-emberjs)
+* [Avoiding Common Pitfalls in Ember.js](http://www.slideshare.net/AlexSpeller/avoiding-common-pitfalls-in-emberjs)
 * [Vic Ramon's Ember Tutorial](http://ember.vicramon.com/)
 * [An Ember.js beginners tutorial](http://williamhart.info/an-emberjs-beginners-tutorial.html)
 * [Building Modern Javascript Applications With Ember.js](http://slides.com/samselikoff/building-modern-js-apps-with-emberjs#/)
