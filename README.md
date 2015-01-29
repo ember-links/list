@@ -384,6 +384,7 @@
 * [Async Button](https://github.com/dockyard/ember-cli-async-button)
 * [Ember CLI Proxy Fixtures](https://github.com/dockyard/ember-cli-proxy-fixtures)
 * [Pagination Addon for Ember CLI](https://github.com/mharris717/ember-cli-pagination)
+* [EmberCLI Addon Hook List](https://github.com/ember-cli/ember-cli/blob/master/ADDON_HOOKS.md)
 
 ## Backend Integration
 > Useful resources for backend integration
