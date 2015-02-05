@@ -243,6 +243,7 @@
 
 * [Liquid Fire: Modal Dialogs](http://ef4.github.io/liquid-fire/#/modals)
 * [Master Your Modals In Ember.js](http://ember.guru/2014/master-your-modals-in-ember-js)
+* [Ember Modals Addon](https://github.com/sir-dunxalot/ember-modals)
 
 ## Views
 > Useful resources for views
