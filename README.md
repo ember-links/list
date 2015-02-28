@@ -275,6 +275,9 @@
 * [Ember.run.bind](http://balinterdi.com/2014/05/09/ember-dot-run-dot-bind.html)
 * [Unit Testing Ember.js, How I Learned to Stop Worrying and Love the Runloop](http://www.thesoftwaresimpleton.com/blog/2012/04/03/testing-ember-and-the-runloop/)
 * [Ember runloop handbook](https://github.com/eoinkelly/ember-runloop-handbook)
+* [Everything You Never Wanted to Know About the Ember Run Loop](http://alexmatchneer.com/blog/2013/01/12/everything-you-never-wanted-to-know-about-the-ember-run-loop/)
+* [A 50,000 foot overview of the Ember.js Run Loop](http://ember.zone/a-50000-foot-overview-of-the-ember-js-run-loop/)
+* [Avoiding Reflows using Ember's Run Loop](http://www.robharper.ca/2013/05/26/2013-05-26-avoiding-reflows-using-embers-runloop/)
 
 ## Performance
 > Useful resources for performance
