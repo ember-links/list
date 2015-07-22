@@ -485,3 +485,18 @@
 * [Modern Mobile Web Apps (using Ember.js)](https://docs.google.com/presentation/d/1Is4f881t0pImLAQLCz4AlcLaUL8Fk4-C_Q2Hbu2DhS4/)
 
 Please note: Some of the links may not be as relevant as when they were originally written. The Ember.js ecosystem is under active development and things a liable to change. If you feel something should be removed just let me know.
+
+---
+
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <span resource="[_:publisher]" rel="dct:publisher">
+    <span property="dct:title">Chris Masters</span></span>
+  has waived all copyright and related or neighboring rights to
+  this work.
+</p>
