@@ -52,7 +52,7 @@
 
 * [Ember.js Official Documentation - Getting Started](http://emberjs.com/guides/getting-started/)
 * [Codeschool - Warming Up With Ember.js](https://www.codeschool.com/courses/warming-up-with-ember-js)
-* [Avoiding Common Pitfulls in Ember.js](http://www.slideshare.net/AlexSpeller/avoiding-common-pitfalls-in-emberjs)
+* [Avoiding Common Pitfalls in Ember.js](http://www.slideshare.net/AlexSpeller/avoiding-common-pitfalls-in-emberjs)
 * [Vic Ramon's Ember Tutorial](http://ember.vicramon.com/)
 * [An Ember.js beginners tutorial](http://williamhart.info/an-emberjs-beginners-tutorial.html)
 * [Building Modern Javascript Applications With Ember.js](http://slides.com/samselikoff/building-modern-js-apps-with-emberjs#/)
@@ -247,6 +247,7 @@
 
 * [Liquid Fire: Modal Dialogs](http://ef4.github.io/liquid-fire/#/modals)
 * [Master Your Modals In Ember.js](http://ember.guru/2014/master-your-modals-in-ember-js)
+* [Ember Modals Addon](https://github.com/sir-dunxalot/ember-modals)
 
 ## Views
 > Useful resources for views
@@ -278,6 +279,9 @@
 * [Ember.run.bind](http://balinterdi.com/2014/05/09/ember-dot-run-dot-bind.html)
 * [Unit Testing Ember.js, How I Learned to Stop Worrying and Love the Runloop](http://www.thesoftwaresimpleton.com/blog/2012/04/03/testing-ember-and-the-runloop/)
 * [Ember runloop handbook](https://github.com/eoinkelly/ember-runloop-handbook)
+* [Everything You Never Wanted to Know About the Ember Run Loop](http://alexmatchneer.com/blog/2013/01/12/everything-you-never-wanted-to-know-about-the-ember-run-loop/)
+* [A 50,000 foot overview of the Ember.js Run Loop](http://ember.zone/a-50000-foot-overview-of-the-ember-js-run-loop/)
+* [Avoiding Reflows using Ember's Run Loop](http://www.robharper.ca/2013/05/26/2013-05-26-avoiding-reflows-using-embers-runloop/)
 
 ## Performance
 > Useful resources for performance
@@ -388,6 +392,7 @@
 * [Async Button](https://github.com/dockyard/ember-cli-async-button)
 * [Ember CLI Proxy Fixtures](https://github.com/dockyard/ember-cli-proxy-fixtures)
 * [Pagination Addon for Ember CLI](https://github.com/mharris717/ember-cli-pagination)
+* [EmberCLI Addon Hook List](https://github.com/ember-cli/ember-cli/blob/master/ADDON_HOOKS.md)
 
 ## Backend Integration
 > Useful resources for backend integration
