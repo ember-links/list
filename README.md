@@ -75,6 +75,7 @@
 ### Observers
 * [Dynamic Binding in Ember.js Using Observers](http://spin.atomicobject.com/2013/05/12/dynamic-ember-js-binding-observers/)
 * [Debounced and Throttled Observers in Ember.js](http://alexspeller.com/debounced-and-throttled-observers-in-ember-js/)
+* [Reactive Modeling with Ember](http://frontside.io/blog/2014/09/21/reactive-modeling-with-ember.html)
 
 ### Computed Properties
 
@@ -185,6 +186,8 @@
 * [A Simple Ember Data Route](http://reefpoints.dockyard.com/2014/03/03/a-simple-ember-data-route.html)
 * [Ember Data & CORS](http://discuss.emberjs.com/t/ember-data-and-cors/3690/4)
 * [Using Ancestry/Self-Join Relationships in Ember and Rails](https://github.com/brandonjmckay/ember-ancestry-example)
+* [Ember Data: Mastering async relationship - Part 1](http://thau.me/2014/09/ember-data-mastering-async-relationships/)
+* [Ember Data: Mastering async relationship - Part 2](http://thau.me/2014/11/ember-data-mastering-async-relationships-part-2/)
 
 ### Serialization
 
@@ -237,6 +240,7 @@
 * [Presentation on Drag & Drop in Ember](http://slides.com/bantic/emberjs-drag-and-drop)
 * [Form Validation using native HTML5 rules](https://github.com/maestrooo/ember-cli-html5-validation)
 * [A Simple Auto Expanding Textarea Component](http://ember.zone/a-simple-auto-expanding-textarea-component/)
+* [Building a real world pagination with Ember.js - the right way](http://webcloud.info/blog/2014/11/01/building-a-real-world-pagination-with-ember-js-the-right-way/)
 
 ## Modals
 > Useful resources for working with modals in Ember
@@ -397,6 +401,7 @@
 * [Ember.js Tutorial With Rails 4](http://www.railsonmaui.com/blog/2013/06/11/emberjs-rails4-tutorial/)
 * [Basic Alerting System with ActionController::Live and Ember.js](http://blog.geokoumpa.com/basic-alerting-system-with-actioncontrollerlive-and-ember-js/)
 * [Introducing JSONAPI::Resources](http://www.cerebris.com/blog/2014/08/22/introducing-jsonapi-resources/)
+* [Pretty URL's with Active Model Serializers and Ember.js](http://blog.learningspaces.io/pretty-urls/)
 
 ### Firebase
 
