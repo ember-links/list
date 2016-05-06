@@ -483,6 +483,7 @@
 * [Creating Hybrid Apps with Ember](https://speakerdeck.com/coderberry/creating-hybrid-apps-with-ember)
 * [Ember.js and accessibility](http://words.steveklabnik.com/emberjs-and-accessibility)
 * [Modern Mobile Web Apps (using Ember.js)](https://docs.google.com/presentation/d/1Is4f881t0pImLAQLCz4AlcLaUL8Fk4-C_Q2Hbu2DhS4/)
+* [16 Opensource EmberJS Projects to Learn From](https://www.icicletech.com/blog/16-opensource-emberjs-projects-to-learn-from)
 
 Please note: Some of the links may not be as relevant as when they were originally written. The Ember.js ecosystem is under active development and things a liable to change. If you feel something should be removed just let me know.
 
